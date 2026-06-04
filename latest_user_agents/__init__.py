@@ -10,7 +10,7 @@ import requests
 from platformdirs import user_cache_dir
 
 
-_download_url = 'https://jnrbsn.github.io/user-agents/user-agents.json'
+_download_url = 'https://cdn.jsdelivr.net/gh/microlinkhq/top-user-agents@master/src/index.json'
 
 _cache_dir = user_cache_dir('jnrbsn-user-agents', 'jnrbsn')
 _cache_file = os.path.join(_cache_dir, 'user-agents.sqlite')
